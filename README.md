@@ -74,7 +74,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## 🌐 Deployment
 
-- Deploy both frontend and backend on [Railway](https://railway.app)
+- Deploy both frontend and backend on [Railway](https://railway.com/)
 - Set `NEXT_PUBLIC_API_URL` in Railway frontend environment variables
 
 ---
@@ -85,4 +85,4 @@ This project is open-source and available under the [MIT License](LICENSE).---
 
 ## 🔗 Live Project
 
-Check out the live version of the app here: [View Live App](https://your-live-app-link.railway.app)
+Check out the live version of the app here: [View Live App](https://adequate-nourishment-production-9434.up.railway.app/)
