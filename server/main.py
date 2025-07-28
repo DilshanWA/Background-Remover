@@ -9,7 +9,7 @@ app = FastAPI()
 # Allow CORS for local frontend (Next.js)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change to your domain in production
+    allow_origins=["https://adequate-nourishment-production-9434.up.railway.app"],  # Change to your domain in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
