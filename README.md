@@ -81,4 +81,8 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](LICENSE).---
+
+## 🔗 Live Project
+
+Check out the live version of the app here: [View Live App](https://your-live-app-link.railway.app)
