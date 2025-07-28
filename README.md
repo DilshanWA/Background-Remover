@@ -74,7 +74,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## 🌐 Deployment
 
-- Deploy both frontend and backend on [Railway](https://railway.app)
+- Deploy both frontend and backend on [Railway](https://adequate-nourishment-production-9434.up.railway.app/)
 - Set `NEXT_PUBLIC_API_URL` in Railway frontend environment variables
 
 ---
