@@ -65,7 +65,10 @@ const Home = () => {
       {!isLoading && outputImageUrl ? (
         <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto p-6 items-center">
           <OutputImage imageUrl={outputImageUrl} />
-          <ActionButtons outputImageUrl={outputImageUrl} />
+          <ActionButtons 
+          outputImageUrl={outputImageUrl} 
+          onFileChange={handleFileChange}
+          />
         </div>
       ) : (
         !isLoading && (
